@@ -1,0 +1,37 @@
+.hero{
+    height: 100vh;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border: 1px;
+}
+.conteiner{
+    width: 100%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+header .conteiner{
+    display: flex;
+    justify-content: end;
+}
+header .conteiner ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+a{
+    line-height: 100px;
+}
+.servises .conteiner>h3, .conteiner>p{
+    width: 740px;
+    margin: 0 auto;
+    text-align: center;
+}
