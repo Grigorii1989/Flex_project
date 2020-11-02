@@ -1,11 +1,8 @@
-.hero{
-    height: 100vh;
+body{
+    
 }
-.hero_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.divfon{
+    background-image: url("./images/Rectangle.png")
 }
 header{
     height: 100px;
@@ -19,13 +16,17 @@ header{
 }
 header .conteiner{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+
 }
 header .conteiner ul{
     margin: 0;
     padding: 0;
     display: inline-block;
-    
+    list-style-type: none;
+}
+li{
+    float: right;
 }
 a{
     line-height: 100px;
@@ -34,4 +35,85 @@ a{
     width: 740px;
     margin: 0 auto;
     text-align: center;
+}
+.hero{
+    height: 100vh;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}      
+.hero_content p{
+    margin-top: 359px;
+    color: white;
+}
+.hero_content h1{
+    color: white;
+    text-align: center;
+}
+button{
+    border-radius: 30px;
+    background: #4985FF;
+    color: white;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.local{
+    margin: 0 auto;
+    text-align: center;
+}
+.local p{
+    width: 730px;
+    height: 41px;
+    margin: 0 auto;
+    text-align: center;
+}
+.serv {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.serv h3{
+    margin: 0;
+    padding-left: 15px;
+    height: 55px;
+    padding-top: 35 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.serv p{
+    margin: 0 0 0 20px;
+    width: 220px;
+    height: 58px;
+}
+.servisflex{
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+}
+.servisflex .servis{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
